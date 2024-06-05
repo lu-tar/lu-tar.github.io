@@ -1,0 +1,5 @@
+site_name: My Wiki
+theme:
+ name: readthedocs
+ #color_mode: dark
+ #nav_style: dark
