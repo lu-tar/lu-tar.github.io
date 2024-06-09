@@ -1,8 +1,0 @@
-site_name: My Wiki
-#nav:
-#  - Home: 'index.md'
-#  - Dev: 'dev/microservices.md'
-theme:
- name: readthedocs
- #color_mode: dark
- #nav_style: dark
