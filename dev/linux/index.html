@@ -51,6 +51,8 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#usermod">usermod</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#adding-k9s-o-binari-a-path">Adding k9s o binari a PATH</a>
+    </li>
     </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../microservices/">Microservices</a>
@@ -107,6 +109,14 @@ network:
 </code></pre>
 <h2 id="usermod">usermod</h2>
 <pre><code class="language-bash">usermod -aG sudo username
+</code></pre>
+<h2 id="adding-k9s-o-binari-a-path">Adding k9s o binari a PATH</h2>
+<pre><code># If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/usr/lib/python3.10:$PATH
+export PATH=/snap/k9s/current/bin:$PATH
+# Path to your oh-my-zsh installation.
+export ZSH=&quot;$HOME/.oh-my-zsh&quot;
 </code></pre>
               
             </div>
