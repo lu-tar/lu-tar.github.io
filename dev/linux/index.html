@@ -122,6 +122,9 @@ export ZSH=&quot;$HOME/.oh-my-zsh&quot;
 </code></pre>
 <h2 id="homebrew-installation">Homebrew installation</h2>
 <pre><code class="language-bash">/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
+(echo; echo 'eval &quot;$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)&quot;') &gt;&gt; /home/luca/.bashrc
+eval &quot;$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)&quot;
+sudo apt-get install build-essential
 </code></pre>
               
             </div>
